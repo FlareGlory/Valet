@@ -712,7 +712,7 @@ textarea {
   bottom: 0;
   z-index: -1;
   background: #FBC02D;
-  opacity: .3;
+  /* opacity: .9; */
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero {
@@ -777,7 +777,7 @@ textarea {
   border-bottom: 1px solid white;
 }
 #fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro > h1 {
-  font-size: 100px;
+  font-size: 60px;
   line-height: 47px;
   color: #ffffff;
   font-weight: 100;
@@ -1865,5 +1865,10 @@ a > img.fh5co-align-center {
   margin-left: auto;
   margin-right: auto;
 }
-
+img#image1 {
+    float: left;
+}
+img#image2 {
+    float: right;
+}
 /*# sourceMappingURL=style.css.map */
