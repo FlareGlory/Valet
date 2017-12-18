@@ -1871,4 +1871,26 @@ img#image1 {
 img#image2 {
     float: right;
 }
+/* ページトップ */
+#page-top {
+    z-index: 5000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80%;
+}
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 125px;
+    padding: 25px 0;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
 /*# sourceMappingURL=style.css.map */
