@@ -44,15 +44,13 @@
 							<h2 class="to-animate hero-animate-2">～快適な食事を～</h2>
                             <img class="to-animate hero-animate-3" src="images/フォークとナイフのお食事アイコン素材2.png" alt="" id="image1">
                             <img class="to-animate hero-animate-3" src="images/握手のアイコン.png" alt="" id="image2">
-                            <form class="" action="index.html" method="post">
-                                <input type="button" class="btn btn-outline btn-md to-animate hero-animate-3" name="" value="カートに入れる">
-                            </form>
+                            <a class="btn btn-outline btn-md to-animate hero-animate-3" onclick="window.top.postMessage(JSON.stringify({productId:2}), '*');">カートに入れる</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<p id="page-top"><a onclick="window.top.postMessage(JSON.stringify({productId:2}), '*');">カートに入れる</a></p>
+		<p id="page-top"><a class="btn" onclick="window.top.postMessage(JSON.stringify({productId:2}), '*');">カートに入れる</a></p>
 		<div id="fh5co-main">
 			<div class="fh5co-cards">
 				<div class="container-fluid">
