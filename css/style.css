@@ -1880,7 +1880,7 @@ img#image2 {
     font-size: 80%;
 }
 #page-top a {
-    background: #666;
+    background: #FF5722;
     text-decoration: none;
     color: #fff;
     width: 125px;
@@ -1891,6 +1891,6 @@ img#image2 {
 }
 #page-top a:hover {
     text-decoration: none;
-    background: #999;
+    background: #FF8A65;
 }
 /*# sourceMappingURL=style.css.map */
