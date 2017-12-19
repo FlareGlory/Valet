@@ -712,7 +712,7 @@ textarea {
   bottom: 0;
   z-index: -1;
   background: #FBC02D;
-  /* opacity: .9; */
+  opacity: 0.7;
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero {
@@ -777,7 +777,7 @@ textarea {
   border-bottom: 1px solid white;
 }
 #fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro > h1 {
-  font-size: 60px;
+  font-size: 70px;
   line-height: 47px;
   color: #ffffff;
   font-weight: 100;
