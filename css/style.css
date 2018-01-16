@@ -880,7 +880,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
 }
 .fh5co-product-2 .img {
   background-color: #57cecd;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   padding: 7em;
